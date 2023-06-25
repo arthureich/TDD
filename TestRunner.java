@@ -13,7 +13,7 @@ import org.junit.runner.notification.Failure;
 */
 public class TestRunner {
   public static void main() {
-    Result result = JUnitCore.runClasses(Dollar.class);
+    Result result = JUnitCore.runClasses(MoneyTest.class);
     int count;
     String msg;
     long time = result.getRunTime();
